@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PRICE PANEL ALZZOFFC🔥</title>
+        <!-- Tambahkan SweetAlert2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+
+            body {
+                background-color: #3498db; /* Latar belakang dark */
+                color: #ffffff; /* Warna teks terang */
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #3498db; /* Warna teks terang */
+                border-radius: 10px;
+                background-color: #fff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+                border: 3px solid #0000ff;
+            }
+
+            .price-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .package {
+                background-color: #fff; /* Latar belakang panel dark */
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+                width: 250px;
+                text-align: center;
+                border: 4px solid #ff0000; /* Lime Green */
+            }
+
+            .package h2 {
+                font-size: 1.5em;
+                color: #0000ff; /* Lime Green */
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                text-align: center;
+                margin-bottom: 30px;
+                color: #000;
+                border-radius: 7px;
+                background-color: #fff;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+                border: 3px solid #0000ff;
+                font-size: 2.3em;
+                font-weight: bold;
+                display: flex;
+            }
+
+            .package p {
+                font-size: 1em;
+                color: #000000; /* Warna teks abu-abu terang */
+                margin: 10px 0;
+            }
+
+            .package .price {
+                font-size: 1.2em;
+                font-weight: bold;
+                color: #32cd32; /* Lime Green */
+                margin-bottom: 10px;
+            }
+
+            .package button {
+                text-decoration: none;
+                padding: 10px 20px;
+                background-color: #008cba;
+                color: #ffffff;
+                border-radius: 5px;
+                font-size: 1em;
+                font-weight: bold;
+                display: inline-block;
+                transition: background-color 0.3s ease;
+                border: none;
+                cursor: pointer;
+            }
+
+            .package button:hover {
+                background-color: #005f8d;
+            }
+
+            .note {
+                margin-top: 20px;
+                font-size: 1em;
+                color: #cccccc; /* Warna teks abu-abu terang */
+                text-align: center;
+            }
+
+            .note p {
+                margin-bottom: 10px;
+            }
+
+            .note strong {
+                color: #32cd32; /* Lime Green */
+            }
+
+            @media screen and (max-width: 768px) {
+                .price-list {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>List Harga Panel AlzzoffcHost🔥</h1>
+
+        <div class="price-list">
+            <!-- Paket 1 -->
+            <div class="package">
+                <h2>Paket 1</h2>
+                <p>1GB RAM</p>
+                <p>1GB DISK</p>
+                <p>40% CPU</p>
+                <p>Panel On 24 Jam Garansi 30Hari</p>
+                <div class="price">Rp.1.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 1', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%201')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 2 -->
+            <div class="package">
+                <h2>Paket 2</h2>
+                <p>2GB RAM</p>
+                <p>2GB DISK</p>
+                <p>60% CPU</p>
+                <p>Panel On 24 Jam Garansi 30Hari</p>
+                <div class="price">Rp.2.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 2', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%202')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 3 -->
+            <div class="package">
+                <h2>Paket 3</h2>
+                <p>3GB RAM</p>
+                <p>3GB DISK</p>
+                <p>80% CPU</p>
+                <p>Panel On 24 Jam Garansi 30Hari</p>
+                <div class="price">Rp.3.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 3', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%203')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 4 -->
+            <div class="package">
+                <h2>Paket 4</h2>
+                <p>4GB RAM</p>
+                <p>4GB DISK</p>
+                <p>100% CPU</p>
+                <div class="price">Rp.4.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 4', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%204')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 5 -->
+            <div class="package">
+                <h2>Paket 5</h2>
+                <p>5GB RAM</p>
+                <p>5GB DISK</p>
+                <p>125% CPU</p>
+                <div class="price">Rp.5.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 5', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%205')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 6 -->
+            <div class="package">
+                <h2>Paket 6</h2>
+                <p>6GB RAM</p>
+                <p>6GB DISK</p>
+                <p>150% CPU</p>
+                <div class="price">Rp.5.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 6', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%206')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 7 -->
+            <div class="package">
+                <h2>Paket 7</h2>
+                <p>7GB RAM</p>
+                <p>7GB DISK</p>
+                <p>175% CPU</p>
+                <p>Panel On 24 Jam Garansi 15 Hari</p>
+                <div class="price">Rp.5.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 7', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%207')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 8 -->
+            <div class="package">
+                <h2>Paket 8</h2>
+                <p>UNLI RAM</p>
+                <p>UNLI DISK</p>
+                <p>UNLI CPU</p>
+                <p>Panel On 24 Jam Garansi 15 Hari</p>
+                <p>1X Replace Wajib Bawa Ss Trx</p>
+                <div class="price">Rp.5.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 8', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%208')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 9 -->
+            <h1>RESELLER PANEL</h1>
+            <div class="package">
+                <h2>Paket 9</h2>
+                <p>RESELLER PANEL!!!</p>
+                <p>RESELLER PANEL 1 BULAN</p>
+                <p>BISA CREATE PANEL SEPUASNYA</p>
+                <p>BISA OPEN PANEL</p>
+                <div class="price">Rp.3.000 / 1 Bulan</div>
+                <button
+                    onclick="confirmPurchase('Paket 9', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%208')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+
+            <!-- Paket 10 -->
+            <div class="package">
+                <h2>Paket 10</h2>
+                <p>RESELLER PANEL!!!</p>
+                <p>RESELLER PANEL MANEN</p>
+                <p>BISA CREATE PANEL SEPUASNYA</p>
+                <p>BISA OPEN PANEL</p>
+                <p>NO PT PT JIKA MOKAD</p>
+                <div class="price">Rp.5.000 / Manen</div>
+                <button
+                    onclick="confirmPurchase('Paket 10', 'https://wa.me/6288215523477?text=Saya%20ingin%20membeli%20panel%20paket%208')"
+                >
+                    Beli Sekarang
+                </button>
+            </div>
+        </div>
+
+        <script>
+            function confirmPurchase(packageName, url) {
+                Swal.fire({
+                    title: "Apakah kamu yakin?",
+                    text: `Apakah kamu yakin ingin membeli ${packageName}?`,
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonText: "Ya, beli!!!",
+                    cancelButtonText: "Tidak, batalkan"
+                }).then(result => {
+                    if (result.isConfirmed) {
+                        window.open(url, "_blank");
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>
